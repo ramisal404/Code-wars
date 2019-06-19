@@ -8,6 +8,7 @@ Note: you will always receive a valid array containing a random assortment of di
 
 """
 
+
 def isValidWalk(walk):
     if len(walk) == 10 and walk.count("w") == walk.count("e") and walk.count("n") == walk.count("s"):
         return True
